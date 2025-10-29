@@ -52,7 +52,7 @@ arXiv, 2025
 ## STORM: A Spatio-Temporal Factor Model Based on Dual Vector Quantized Variational Autoencoders for Financial Trading
 
 **Yilei Zhao**<sup>*</sup>, Wentao Zhang<sup>*</sup>, Tingran Yang, Yong Jiang, Fei Huang, Wei Yang Bryan Lim <br />
-WSDM, 2026
+Proceedings of ACM International Conference on Web Search and Data Mining (**WSDM**), 2026
 
 [Paper](https://arxiv.org/pdf/2412.09468) | [Code](https://anonymous.4open.science/r/Storm-2823)
 </div>
