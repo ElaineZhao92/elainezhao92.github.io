@@ -28,11 +28,9 @@ My research primarily focuses on Fintech (AI4Finance). I have worked on applying
 - *2024.08 - 2024.09*, Alipay (Hangzhou) Information Technology Co., Ltd., China. Algorithm Intern.
 - *2020.09 - 2024.07*, Zhejiang University, China. B.Eng. in Software Engineering.  
 
-[//]: # (# 🔥 News)
+# 🔥 News
 
-[//]: # (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
-
-[//]: # (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+- *2025.10*: &nbsp;🎉🎉 STORM is accepted by WSDM 2026!
 
 # 📝 Publications 
 
@@ -54,7 +52,7 @@ arXiv, 2025
 ## STORM: A Spatio-Temporal Factor Model Based on Dual Vector Quantized Variational Autoencoders for Financial Trading
 
 **Yilei Zhao**<sup>*</sup>, Wentao Zhang<sup>*</sup>, Tingran Yang, Yong Jiang, Fei Huang, Wei Yang Bryan Lim <br />
-arXiv, 2024
+WSDM, 2026
 
 [Paper](https://arxiv.org/pdf/2412.09468) | [Code](https://anonymous.4open.science/r/Storm-2823)
 </div>
