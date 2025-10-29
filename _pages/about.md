@@ -30,9 +30,9 @@ My research primarily focuses on Fintech (AI4Finance). I have worked on applying
 
 # 🔥 News
 
-- *2025.10*: &nbsp;🎉🎉 STORM is accepted by WSDM 2026!
+- *2025.10*: &nbsp;🎉🎉 STORM is accepted by WSDM 2026! See u in Bosie, Idaho!
 
-# 📝 Publications 
+# 📝 Selected Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/FinWorld.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -46,7 +46,7 @@ arXiv, 2025
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/STORM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WSDM 2026</div><img src='images/STORM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## STORM: A Spatio-Temporal Factor Model Based on Dual Vector Quantized Variational Autoencoders for Financial Trading
@@ -86,6 +86,7 @@ Proceedings of the AAAI Conference on Artificial Intelligence (**AAAI**), 2024
 
 # 💬 Academic Services
 - *Conference Reviewer*
+  - ICLR 2026
   - AAAI 2026 
   - KDD 2025
   - WISE 2024, 2025
