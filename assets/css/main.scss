@@ -110,7 +110,6 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
-/* Paper links styling - button style */
 .paper-links {
     display: flex;
     flex-wrap: wrap;
@@ -127,21 +126,21 @@ h1:before, .anchor:before {
         transition: all 0.2s ease-in-out;
         white-space: nowrap;
       
-        &.btn {
-            background-color: rgba(74, 109, 179, 0.5); /* 初始：淡蓝色背景 */
-            color: #4a6db3;                             /* 文字保持蓝色 */
-            border: 1px solid #4a6db3;                  /* 边框颜色也一致 */
+        &.button {
+            background-color: rgba(74, 109, 179, 0.5);
+            color: #FFFFFF;
+            border: 1px rgba(74, 109, 179, 0.5);
           
             &:hover {
-              background-color: #4a6db3;  /* ✅ hover 变成你想要的深蓝 */
-              border-color: #4a6db3;      /* ✅ hover 边框也变深蓝 */
-              color: white;               /* 建议 hover 文字改白色，对比更强（可选） */
+              background-color: #4a6db3;
+              border-color: #4a6db3;
+              color: white;
             }
           }
     }
 }
 
-/* Education and Experience styling */
+
 .education-item, .experience-item {
     margin-bottom: 1.5em;
     
@@ -197,17 +196,16 @@ h1:before, .anchor:before {
             margin-bottom: 0.25em;
         }
     }
-    
-    /* Responsive: on small screens, move date below */
-    // @include breakpoint($small) {
-    //     .institution-row {
-    //         flex-direction: column;
-    //         align-items: flex-start;
-    //     }
-        
-    //     .date {
-    //         margin-left: 0;
-    //         margin-top: 0.25em;
-    //     }
-    // }
+
+     @media (max-width: 768px) {
+         .institution-row {
+             flex-direction: column;
+             align-items: flex-start;
+         }
+
+         .date {
+             margin-left: 0;
+             margin-top: 0.25em;
+         }
+     }
 }
