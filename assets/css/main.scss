@@ -109,3 +109,57 @@ h1:before, .anchor:before {
     // background-color: #f3d849;
     font-size: .8em;
 }
+
+/* Paper links styling */
+.paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 0.75em;
+    
+    a {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.4em 0.8em;
+        font-size: 0.9em;
+        font-weight: 500;
+        text-decoration: none;
+        color: #fff;
+        background-color: $info-color;
+        border-radius: $border-radius;
+        transition: all 0.2s ease-in-out;
+        
+        &:hover {
+            background-color: mix(#000, $info-color, 20%);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        }
+        
+        i, svg {
+            margin-right: 0.4em;
+            font-size: 0.9em;
+        }
+        
+        /* Different colors for different link types */
+        &.paper-link {
+            background-color: #d32f2f; /* Red for paper */
+            &:hover {
+                background-color: mix(#000, #d32f2f, 20%);
+            }
+        }
+        
+        &.code-link {
+            background-color: #2e7d32; /* Green for code */
+            &:hover {
+                background-color: mix(#000, #2e7d32, 20%);
+            }
+        }
+        
+        &.website-link {
+            background-color: #1976d2; /* Blue for website */
+            &:hover {
+                background-color: mix(#000, #1976d2, 20%);
+            }
+        }
+    }
+}

@@ -43,7 +43,11 @@ My research primarily focuses on Fintech (AI4Finance). I have worked on applying
 Wentao Zhang, **Yilei Zhao**, Chuqiao Zong, Xinrun Wang, Bo An <br />
 Proceedings of SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD**), 2026
 
-[Paper](https://arxiv.org/pdf/2508.02292) | [Code](https://github.com/DVampire/FinWorld) | [Website](https://dvampire.github.io/FinWorld/)
+<div class="paper-links">
+<a href="https://arxiv.org/pdf/2508.02292" class="paper-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Paper</a>
+<a href="https://github.com/DVampire/FinWorld" class="code-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+<a href="https://dvampire.github.io/FinWorld/" class="website-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Website</a>
+</div>
 </div>
 </div>
 
@@ -55,7 +59,10 @@ Proceedings of SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD**
 **Yilei Zhao**<sup>*</sup>, Wentao Zhang<sup>*</sup>, Tingran Yang, Yong Jiang, Fei Huang, Wei Yang Bryan Lim <br />
 Proceedings of ACM International Conference on Web Search and Data Mining (**WSDM**), 2026
 
-[Paper](https://arxiv.org/pdf/2412.09468) | [Code](https://anonymous.4open.science/r/Storm-2823)
+<div class="paper-links">
+<a href="https://arxiv.org/pdf/2412.09468" class="paper-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Paper</a>
+<a href="https://anonymous.4open.science/r/Storm-2823" class="code-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+</div>
 </div>
 </div>
 
@@ -67,7 +74,10 @@ Proceedings of ACM International Conference on Web Search and Data Mining (**WSD
 Wentao Zhang, **Yilei Zhao**, Shuo Sun, Jie Ying, Yonggang Xie, Zitao Song, Xinrun Wang, Bo An <br />
 Proceedings of the ACM Web Conference (**WWW**), 2024
 
-[Paper](https://dl.acm.org/doi/abs/10.1145/3589334.3645615) | [Code](https://github.com/DVampire/EarnMore)
+<div class="paper-links">
+<a href="https://dl.acm.org/doi/abs/10.1145/3589334.3645615" class="paper-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Paper</a>
+<a href="https://github.com/DVampire/EarnMore" class="code-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+</div>
 </div>
 </div>
 
@@ -79,7 +89,9 @@ Proceedings of the ACM Web Conference (**WWW**), 2024
 Mengyuan Yang, Mengying Zhu, Yan Wang, Linxun Chen, **Yilei Zhao**, Xiuyuan Wang, Bing Han, Xiaolin Zheng, Jianwei Yin <br />
 Proceedings of the AAAI Conference on Artificial Intelligence (**AAAI**), 2024
 
-[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28777)
+<div class="paper-links">
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28777" class="paper-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Paper</a>
+</div>
 </div>
 </div>
 
