@@ -74,8 +74,12 @@
             max-width: 40%;
             order: 1;
         }
-        
-        .paper-box-text{
+
+        .paper-box-text a.btn {
+          margin-bottom: 1em;
+        }
+
+        .paper-box-text {
             justify-content: left;
             padding-left: 2em;
             max-width: 60%;
