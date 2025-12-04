@@ -23,10 +23,39 @@ My research primarily focuses on Fintech (AI4Finance). I have worked on applying
 
 
 # 📖 Educations and Experience
-- *2025.08 - Present*, Nanyang Technological University, Singapore. PhD Student, College of Computing and Data Science.
-- *2024.09 - 2025.08*, Nanyang Technological University, Singapore. Research Engineer, Alibaba-NTU Corp Lab.
-- *2024.08 - 2024.09*, Alipay (Hangzhou) Information Technology Co., Ltd., China. Algorithm Intern.
-- *2020.09 - 2024.07*, Zhejiang University, China. B.Eng. in Software Engineering.  
+
+<div class="education-item">
+  <div class="institution-row">
+    <span class="institution">Nanyang Technological University, Singapore</span>
+    <span class="date">Aug. 2025 &mdash; Present</span>
+  </div>
+  <div class="degree">Ph.D. in Computer Science</div>
+  <div class="adviser">Adviser: <a href="https://scholar.google.com/citations?user=K2CHjf0AAAAJ&hl=zh-CN&oi=ao">Prof. Wei Yang Bryan Lim</a></div>
+</div>
+
+<div class="experience-item">
+<div class="institution-row">
+<div class="institution">Alibaba-NTU Corp Lab, Singapore</div>
+<div class="date">Sep. 2024 &mdash; Aug. 2025</div>
+</div>
+<div class="position">Research Engineer</div>
+</div>
+
+<div class="experience-item">
+<div class="institution-row">
+<div class="institution">Alipay (Hangzhou) Information Technology Co., Ltd., China</div>
+<div class="date">Aug. 2024 &mdash; Sep. 2024</div>
+</div>
+<div class="position">Algorithm Intern</div>
+</div>
+
+<div class="education-item">
+<div class="institution-row">
+<div class="institution">Zhejiang University, China</div>
+<div class="date">Sep. 2020 &mdash; Jul. 2024</div>
+</div>
+<div class="degree">B.Eng. in Software Engineering</div>
+</div>
 
 # 🔥 News
 
@@ -43,7 +72,11 @@ My research primarily focuses on Fintech (AI4Finance). I have worked on applying
 Wentao Zhang, **Yilei Zhao**, Chuqiao Zong, Xinrun Wang, Bo An <br />
 Proceedings of SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD**), 2026
 
-[Paper](https://arxiv.org/pdf/2508.02292) | [Code](https://github.com/DVampire/FinWorld) | [Website](https://dvampire.github.io/FinWorld/)
+<div class="paper-links">
+<a href="https://arxiv.org/pdf/2508.02292" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
+<a href="https://github.com/DVampire/FinWorld" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
+<a href="https://dvampire.github.io/FinWorld/" class="btn" target="_blank" rel="noopener noreferrer">Project Page</a>
+</div>
 </div>
 </div>
 
@@ -55,7 +88,10 @@ Proceedings of SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD**
 **Yilei Zhao**<sup>*</sup>, Wentao Zhang<sup>*</sup>, Tingran Yang, Yong Jiang, Fei Huang, Wei Yang Bryan Lim <br />
 Proceedings of ACM International Conference on Web Search and Data Mining (**WSDM**), 2026
 
-[Paper](https://arxiv.org/pdf/2412.09468) | [Code](https://anonymous.4open.science/r/Storm-2823)
+<div class="paper-links">
+<a href="https://arxiv.org/pdf/2412.09468" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
+<a href="https://anonymous.4open.science/r/Storm-2823" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
+</div>
 </div>
 </div>
 
@@ -67,7 +103,10 @@ Proceedings of ACM International Conference on Web Search and Data Mining (**WSD
 Wentao Zhang, **Yilei Zhao**, Shuo Sun, Jie Ying, Yonggang Xie, Zitao Song, Xinrun Wang, Bo An <br />
 Proceedings of the ACM Web Conference (**WWW**), 2024
 
-[Paper](https://dl.acm.org/doi/abs/10.1145/3589334.3645615) | [Code](https://github.com/DVampire/EarnMore)
+<div class="paper-links">
+<a href="https://dl.acm.org/doi/abs/10.1145/3589334.3645615" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
+<a href="https://github.com/DVampire/EarnMore" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
+</div>
 </div>
 </div>
 
@@ -79,7 +118,9 @@ Proceedings of the ACM Web Conference (**WWW**), 2024
 Mengyuan Yang, Mengying Zhu, Yan Wang, Linxun Chen, **Yilei Zhao**, Xiuyuan Wang, Bing Han, Xiaolin Zheng, Jianwei Yin <br />
 Proceedings of the AAAI Conference on Artificial Intelligence (**AAAI**), 2024
 
-[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28777)
+<div class="paper-links">
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28777" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
+</div>
 </div>
 </div>
 
@@ -100,5 +141,11 @@ Proceedings of the AAAI Conference on Artificial Intelligence (**AAAI**), 2024
 - *2024.06*, Outstanding Graduates of Zhejiang University
 - *2024.06*, Outstanding Thesis of Zhejiang University
 - *2023.10* Zhejiang University Second-Class Scholarship(Top 8%)
-- *2021.10* Zhejiang Provincial Government Scholarship(Top 3%).
+- *2021.10* Zhejiang Provincial Government Scholarship(Top 3%)
 - *2021.10* Zhejiang University Second-Class Scholarship(Top 8%)
+
+
+<br />
+<body>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=757474&w=263&t=n&d=XgHGv2Y0kdhFlYOVowlQ6BfSHQGWKJyYe-BDw3QuH1Q&co=ffffff&ct=808080&cmo=4cc9f0&cmn=4361ee'></script>
+</body>

@@ -110,13 +110,104 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
-/* Paper links styling - simple text links with hover effect */
-.paper-box-text a {
-    color: #4a6db3;
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
+/* Paper links styling - button style */
+.paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 0.75em;
     
-    &:hover {
-        color: #2d4a7a; /* Darker shade on hover */
+    a {
+        display: inline-block;
+        padding: 0.5em 1em;
+        font-size: 0.8em;
+        font-weight: 500;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+        white-space: nowrap;
+      
+        &.btn {
+            background-color: rgba(74, 109, 179, 0.5); /* 初始：淡蓝色背景 */
+            color: #4a6db3;                             /* 文字保持蓝色 */
+            border: 1px solid #4a6db3;                  /* 边框颜色也一致 */
+          
+            &:hover {
+              background-color: #4a6db3;  /* ✅ hover 变成你想要的深蓝 */
+              border-color: #4a6db3;      /* ✅ hover 边框也变深蓝 */
+              color: white;               /* 建议 hover 文字改白色，对比更强（可选） */
+            }
+          }
     }
+}
+
+/* Education and Experience styling */
+.education-item, .experience-item {
+    margin-bottom: 1.5em;
+    
+    .institution-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 0.25em;
+    }
+    
+    .institution {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: $text-color;
+        flex: 1;
+    }
+    
+    .date {
+        white-space: nowrap;
+        flex-shrink: 0;
+        margin-right: 1em;
+        text-align: right; 
+    }
+
+    .degree, .position  {
+        font-style: italic;
+        margin-right: 1em;
+    }
+    
+    .adviser, .details {
+        color: $text-color;
+        font-size: 0.95em;
+        margin-top: 0.25em;
+        display: block;
+        
+        a {
+            color: $link-color;
+            text-decoration: none;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+    .achievements {
+        margin-top: 0.5em;
+        padding-left: 1.5em;
+        
+        li {
+            color: $text-color;
+            font-size: 0.95em;
+            margin-bottom: 0.25em;
+        }
+    }
+    
+    /* Responsive: on small screens, move date below */
+    // @include breakpoint($small) {
+    //     .institution-row {
+    //         flex-direction: column;
+    //         align-items: flex-start;
+    //     }
+        
+    //     .date {
+    //         margin-left: 0;
+    //         margin-top: 0.25em;
+    //     }
+    // }
 }
