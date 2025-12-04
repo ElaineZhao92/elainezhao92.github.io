@@ -30,17 +30,18 @@ My research primarily focuses on Fintech (AI4Finance). I have worked on applying
 
 # 🔥 News
 
+- *2025.11*: &nbsp;🎉🎉 FinWorld is accepted by KDD 2026! See u in Jeju, Korea!
 - *2025.10*: &nbsp;🎉🎉 STORM is accepted by WSDM 2026! See u in Bosie, Idaho!
 
 # 📝 Selected Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/FinWorld.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026</div><img src='images/FinWorld.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## FinWorld: An All-in-One Open-Source Platform for End-to-End Financial AI Research and Deployment
 
 Wentao Zhang, **Yilei Zhao**, Chuqiao Zong, Xinrun Wang, Bo An <br />
-arXiv, 2025
+Proceedings of SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD**), 2026
 
 [Paper](https://arxiv.org/pdf/2508.02292) | [Code](https://github.com/DVampire/FinWorld) | [Website](https://dvampire.github.io/FinWorld/)
 </div>
