@@ -18,6 +18,8 @@ navbar_title: Home
 
     {% if site.data.display.homepage.show_awards %}
       {% include widgets/awards_card.html %}
+    {% if site.data.display.homepage.show_visitor_map %}
+      {% include widgets/visitor_map_card.html %}
     {% endif %}
   </div>
 

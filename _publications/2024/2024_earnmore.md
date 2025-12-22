@@ -3,7 +3,7 @@ title:          "Statistical Feature-Based Memory-Efficient Machine Learning Pip
 date:           2024-05-13
 selected:       true
 tags:           ["# AI4Finance", "# portfolio management", "# reinforcement learning"]
-pub:            "Proceedings of the ACM Web Conference (**WWW**), 2024"
+pub:            "Proceedings of the ACM Web Conference (WWW), 2024"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "2024"
