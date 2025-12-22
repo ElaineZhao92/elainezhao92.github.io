@@ -1,0 +1,83 @@
+primary_name: "Shiwon Kim"
+secondary_name: ""
+navbar_name: "Shiwon Kim"
+
+positions:
+# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+#   name: Position 1 with logo
+- name: Ph.D. student
+- name: <a href="https://www.ntu.edu.sg/" target="_blank">Nanyang Technological University</a>
+
+
+email: "YILEI002@e.ntu.edu.sg"
+#cv_link: https://shiwonkim.github.io/uploads/CV_ShiwonKim_one_page.pdf
+gscholar: VamWHYAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: elainezhao92
+# twitter: your_twitter_id  # Do not include the '@' symbol
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+#linkedin: shiwon-kim-958462173
+orcid: 0009-0009-4226-1456
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    Hi! I’m Yilei Zhao (Elaine), currently a Ph.D. student at Nanyang Technological University, where I am fortunate to be advised by <a href='https://scholar.google.com/citations?user=K2CHjf0AAAAJ&hl=zh-CN&oi=ao'>Wei Yang Bryan Lim</a>. Prior to joining NTU, I completed my bachelor’s degree at Zhejiang University, where I had a wonderful academic journey that sparked my interest in research.  
+  </p>
+  <p>
+    My research primarily focuses on Fintech (AI4Finance). I have worked on applying deep learning models to tackle financial tasks, including portfolio management and algorithmic trading. Currently, my interests extend to foundation models, particularly in making them trustworthy for real-world applications. I am especially interested in topics such as uncertainty quantification, explainability, and ensuring that these large-scale models can be deployed reliably in high-stakes decision-making environments.
+  </p>
+  <p>
+    Research keywords include: <span class="text-hl">AI4Finance</span>, <span class="text-hl">LLM Agents</span>, <span class="text-hl">Uncertainty Quantification</span>, and so on.
+  </p>
+
+portrait_url: /images/avatar-512x512.png
+# portrait_caption: >-
+#   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+
+education:
+ - name: Nanyang Technological University
+   logo: /images/NTU.png
+   position: >-
+     College of Computing and Data Science <br/>
+     Ph.D. Student
+   description:
+     Advised by <a href='https://scholar.google.com/citations?user=K2CHjf0AAAAJ&hl=zh-CN&oi=ao'>Prof. Wei Yang Bryan Lim</a>
+   date: Aug. 2025 - present
+   place: Singapore
+ - name: Zhejiang University
+   logo: /images/ZJU.png
+   position: >-
+     B.Eng. in Software Engineering <br/>
+   description:
+    Advised by Prof. Zheng Xiaolin
+   date: Sep. 2020 - Jul. 2024
+   place: Hangzhou, China
+
+
+experience:
+- name: Alibaba-NTU Corp Lab (ANGEL), Nanyang Technological University
+  logo: /images/NTU.png
+  position: >- 
+    Research Engineer <br/>
+  date: Sep. 2024 - Aug. 2025
+  place: Singapore
+- name: Alipay (Hangzhou) Information Technology Co., Ltd
+  logo: /images/ant group.png
+  position: >- 
+    Algorithm Intern <br/>
+  date: Aug. 2024 - Sep. 2024
+  place: Hangzhou, China
+
+awards:
+ - name: Outstanding Graduates of Zhejiang University
+   date: 2024.06
+ - name: Outstanding Thesis of Zhejiang University
+   date: 2024.06
+ - name: Zhejiang University Second-Class Scholarship(Top 8%)
+   date: 2023.10
+ - name: Zhejiang Provincial Government Scholarship(Top 3%)
+   date: 2021.10
+ - name: Zhejiang University Second-Class Scholarship(Top 8%)
+   date: 2021.10
