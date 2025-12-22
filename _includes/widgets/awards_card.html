@@ -2,7 +2,7 @@
     <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-award"></i><span style="margin-left: 0.3em;">Honors & Awards</span></h6>
     <div class="px-3 pt-3 pb-2">
         {% if site.data.profile.awards %}
-            {% for item in site.data.profile.awards %}
+            <ul class="list-unstyled"> {% for item in site.data.profile.awards %}
             <li>
                 <div class="d-flex">
                     <div>{{ item.name }}</div>
@@ -10,6 +10,7 @@
                 </div>
             </li>
             {% endfor %}
+            </ul>
         {% endif %}
     </div>
 </div>
