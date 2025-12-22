@@ -1,6 +1,6 @@
-primary_name: "Shiwon Kim"
+primary_name: "Yilei Zhao"
 secondary_name: ""
-navbar_name: "Shiwon Kim"
+navbar_name: "Yilei Zhao"
 
 positions:
 # - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
@@ -71,13 +71,13 @@ experience:
   place: Hangzhou, China
 
 awards:
- - name: Outstanding Graduates of Zhejiang University
-   date: 2024.06
- - name: Outstanding Thesis of Zhejiang University
-   date: 2024.06
- - name: Zhejiang University Second-Class Scholarship(Top 8%)
-   date: 2023.10
- - name: Zhejiang Provincial Government Scholarship(Top 3%)
-   date: 2021.10
- - name: Zhejiang University Second-Class Scholarship(Top 8%)
-   date: 2021.10
+- name: Outstanding Graduates of Zhejiang University
+  date: Jun. 2024
+- name: Outstanding Thesis of Zhejiang University
+  date: Jun. 2024
+- name: Zhejiang University Second-Class Scholarship(Top 8%)
+  date: Oct. 2023
+- name: Zhejiang Provincial Government Scholarship(Top 3%)
+  date: Oct. 2021
+- name: Zhejiang University Second-Class Scholarship(Top 8%)
+  date: Oct. 2023
