@@ -2,8 +2,9 @@
 title:          "STORM: A Spatio-Temporal Factor Model Based on Dual Vector Quantized Variational Autoencoders for Financial Trading"
 date:           2025-10-24
 selected:       true
+type:           publication
 tags:           ["# AI4Finance", "# spatio-temporal learning", "# factor models", "# portfolio management", "# quantitative trading"]
-pub:            "Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining (WSDM), 2026"
+pub:            "Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining (WSDM) "
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "2026"

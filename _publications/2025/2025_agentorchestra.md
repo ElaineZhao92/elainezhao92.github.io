@@ -1,11 +1,11 @@
 ---
 title:          "Agentorchestra: A Hierarchical Multi-agent Framework for General-purpose Task Solving"
 date:           2025-06-10
-selected:       true
-tags:           ["# AI4Finance", "# spatio-temporal learning", "# factor models", "# portfolio management", "# quantitative trading"]
-pub:            "Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining (WSDM), 2026"
+selected:       false
+tags:           ["# LLM Agents", "# deep research", "# hierarchical multi-agent systems"]
+pub:            "arXiv preprint, 2025"
 # pub_pre:        "Submitted to "
-pub_post:       'Under review.'
+#pub_post:       'Under review.'
 #pub_date:       "2026"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
