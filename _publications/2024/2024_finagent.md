@@ -1,5 +1,5 @@
 ---
-title:          "A multimodal foundation agent for financial trading: Tool-augmented, diversified, and generalist"
+title:          "A Multimodal Foundation Agent for Financial Trading: Tool-augmented, Diversified, and Generalist"
 date:           2024-08-25
 selected:       false
 type:           publication
