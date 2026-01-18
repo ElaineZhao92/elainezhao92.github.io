@@ -3,10 +3,9 @@
 
 <div class="my-3 bg-white shadow-sm rounded-xl">
     <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-gavel"></i><span style="margin-left: 0.3em;">Academic Services</span></h6>
-    <div class="px-3 pb-1">
+    <div class="px-3 py-2">
         {% for conference_group in services_by_conference %}
-        <div class="my-1 {% if not_first -%}border-top border-gray pt-2 mt-2{%- endif %}">
-            {% assign not_first = true %}
+        <div class="py-1">
             {% comment %} Collect all years for this conference {% endcomment %}
             {% assign conference_years = "" | split: "," %}
             {% assign conference_role = "" %}
