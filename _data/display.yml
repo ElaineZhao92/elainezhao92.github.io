@@ -3,6 +3,7 @@ homepage:
   show_experience: true
   show_awards: true
   show_news: true
+  show_academic_services: true
   show_selected_publications: true
   show_visitor_map: true
   num_news: 10

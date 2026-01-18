@@ -1,0 +1,61 @@
+{% comment %} Collect all unique years and group services by year {% endcomment %}
+{% assign all_years = "" | split: "," %}
+{% for service in site.data.academic_services.services %}
+  {% if service.years %}
+    {% for year in service.years %}
+      {% assign year_str = year | append: "" %}
+      {% unless all_years contains year_str %}
+        {% assign all_years = all_years | push: year_str %}
+      {% endunless %}
+    {% endfor %}
+  {% elsif service.year %}
+    {% assign year_str = service.year | append: "" %}
+    {% unless all_years contains year_str %}
+      {% assign all_years = all_years | push: year_str %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+{% assign all_years = all_years | sort | reverse %}
+
+<div class="my-3 bg-white shadow-sm rounded-xl">
+    <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-gavel"></i><span style="margin-left: 0.3em;">Academic Services</span></h6>
+    <div class="px-3 pb-1">
+        {% for year in all_years %}
+        <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
+            {% assign not_first = true %}
+            <div class="mr-3 text-muted my-1">{{ year }}</div>
+            <div class="media-body">
+                {% for service in site.data.academic_services.services %}
+                  {% assign show_service = false %}
+                  {% if service.years %}
+                    {% for service_year in service.years %}
+                      {% assign service_year_str = service_year | append: "" %}
+                      {% if service_year_str == year %}
+                        {% assign show_service = true %}
+                        {% break %}
+                      {% endif %}
+                    {% endfor %}
+                  {% elsif service.year %}
+                    {% assign service_year_str = service.year | append: "" %}
+                    {% if service_year_str == year %}
+                      {% assign show_service = true %}
+                    {% endif %}
+                  {% endif %}
+                  
+                  {% if show_service %}
+                  <div class="my-1 d-flex">
+                      <div>
+                          <strong>{{ service.conference }}</strong>
+                          {% if service.role %}
+                          <span class="text-muted"> - {{ service.role }}</span>
+                          {% endif %}
+                      </div>
+                  </div>
+                  {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
