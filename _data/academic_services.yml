@@ -1,15 +1,12 @@
 services:
   - conference: "ICLR"
     year: 2026
-    role: "Reviewer"
   
   - conference: "AAAI"
     year: 2026
-    role: "Reviewer"
   
   - conference: "KDD"
     year: 2025
-    role: "Reviewer"
 
   - conference: "WISE"
     years: [2024, 2025, 2026]
