@@ -9,7 +9,7 @@ services:
     year: 2026
   
   - conference: "KDD"
-    year: [2026, 2025]
+    year: [2025, 2026]
 
   - conference: "WISE"
     years: [2024, 2025, 2026]
