@@ -2,6 +2,9 @@ services:
   - conference: "ICML"
     year: 2026
 
+  - conference: "NeurIPS"
+    year: 2026
+
   - conference: "ICLR"
     year: 2026
 

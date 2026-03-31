@@ -20,7 +20,7 @@ authors:
   - Fei Huang
   - Wei Yang Bryan Lim#
 links:
-  Paper: https://arxiv.org/pdf/2412.09468
+  Paper: https://dl.acm.org/doi/pdf/10.1145/3773966.3777972
   Code: https://github.com/DVampire/Storm
   Website: https://elainezhao92.github.io/STORM-webpage
 ---
