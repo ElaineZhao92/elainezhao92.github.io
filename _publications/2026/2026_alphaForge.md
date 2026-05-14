@@ -1,7 +1,7 @@
 ---
 title:          "AlphaForgeBench: Benchmarking End-to-End Trading Strategy Design with Large Language Models"
 date:           2026-02-25
-selected:       true
+selected:       false
 tags:           ["# AI4Finance", "# benchmark and datasets"]
 #pub:            "Proceedings of SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026"
 # pub_pre:        "Submitted to "
