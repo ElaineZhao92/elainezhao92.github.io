@@ -26,5 +26,9 @@ authors:
   - Chau Yuen
   - Wei Yang Bryan Lim#
 links:
-#  Paper: 
+  Paper: http://arxiv.org/abs/2605.14754
+  Code: https://github.com/GongZhiren/XDomainBench
+  Dataset: https://huggingface.co/datasets/ZHIREN001/XDomainBench
+  Website: https://gongzhiren.github.io/XDomainBench-website/
+
 ---
