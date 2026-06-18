@@ -104,8 +104,8 @@ body_attr: >-
           <div class="tag-filter" onclick="toggleTagFilter('explainability')"># explainability</div>
           <div class="tag-filter" onclick="toggleTagFilter('knowledge graph')"># knowledge graph</div>
           <div class="tag-filter" onclick="toggleTagFilter('LLM agents')"># LLM agents</div>
-          <div class="tag-filter" onclick="toggleTagFilter('deep research')"># LLM agents</div>
-          <div class="tag-filter" onclick="toggleTagFilter('hierarchical multi-agent systems')"># LLM agents</div>
+          <div class="tag-filter" onclick="toggleTagFilter('deep research')"># deep research</div>
+          <div class="tag-filter" onclick="toggleTagFilter('hierarchical multi-agent systems')"># hierarchical multi-agent systems</div>
           <!-- More tags -->
         </div>
       </div>
@@ -150,27 +150,27 @@ body_attr: >-
 <!-- JAVASCRIPT FOR FILTERING -->
 <script>
   let currentType = 'all';
-  let activeTags = new Set();
+  let activeTag = null;
+
+  function slugify(str) {
+    return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
 
   function selectType(el, type) {
-    // Remove active class from all
-    document.querySelectorAll('.filter-tab').forEach(tab => {
-      tab.classList.remove('active');
-    });
-    // Add active to selected
+    document.querySelectorAll('.filter-tab').forEach(tab => tab.classList.remove('active'));
     el.classList.add('active');
     currentType = type;
     applyFilters();
   }
 
   function toggleTagFilter(tag) {
-    const badge = document.querySelector('.tag-filter[onclick*="' + tag + '"]');
-    if (activeTags.has(tag)) {
-      activeTags.delete(tag);
-      badge.classList.remove('active');
+    document.querySelectorAll('.tag-filter').forEach(el => el.classList.remove('active'));
+    if (activeTag === tag) {
+      activeTag = null;
     } else {
-      activeTags.add(tag);
-      badge.classList.add('active');
+      activeTag = tag;
+      const badge = document.querySelector('.tag-filter[onclick*="' + CSS.escape(tag) + '"]');
+      if (badge) badge.classList.add('active');
     }
     applyFilters();
   }
@@ -181,8 +181,7 @@ body_attr: >-
 
     for (let i = 0; i < items.length; i++) {
       const typeMatch = (currentType === "all" || items[i].classList.contains(currentType));
-      const tagMatch = Array.from(activeTags).every(tag => items[i].classList.contains(tag));
-      const tagPass = (activeTags.size === 0 || tagMatch);
+      const tagPass = (activeTag === null || items[i].classList.contains(slugify(activeTag)));
       items[i].style.display = (typeMatch && tagPass) ? "block" : "none";
     }
 
@@ -190,10 +189,7 @@ body_attr: >-
       const visibleItems = yearBlocks[j].querySelectorAll(".filter-item");
       let anyVisible = false;
       for (let k = 0; k < visibleItems.length; k++) {
-        if (visibleItems[k].style.display !== "none") {
-          anyVisible = true;
-          break;
-        }
+        if (visibleItems[k].style.display !== "none") { anyVisible = true; break; }
       }
       yearBlocks[j].style.display = anyVisible ? "block" : "none";
     }

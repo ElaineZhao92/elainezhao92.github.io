@@ -1,21 +1,69 @@
-{% assign news_by_year = site.news | sort: "date" | reverse | slice: 0, include.limit | group_by_exp: "item", "item.date | date: '%Y'" -%}
+{% assign all_news = site.news | sort: "date" | reverse %}
+{% assign news_by_year = all_news | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign total_news = all_news | size %}
+{% assign news_preview_limit = 5 %}
 
 <div class="my-3 bg-white shadow-sm rounded-xl">
     <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i><span style="margin-left: 0.3em;">News</span></h6>
-    <div class="px-3 pb-1">
+    <div class="px-3 pb-1" id="news-container">
+        {% assign news_item_index = 0 %}
         {% for year in news_by_year %}
-        <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
-            {% assign not_first = true %}
+        <div class="media py-1 {% if news_item_index > 0 -%}border-top border-gray{%- endif %}" data-news-year="{{ year.name }}">
             <div class="mr-3 text-muted my-1">{{ year.name }}</div>
             <div class="media-body">
                 {% for item in year.items %}
-                <div class="my-1 d-flex">
+                <div class="my-1 d-flex news-item" data-news-index="{{ news_item_index }}">
                     <div>{{ item.title }}</div>
                     <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
                 </div>
+                {% assign news_item_index = news_item_index | plus: 1 %}
                 {% endfor %}
             </div>
         </div>
         {% endfor %}
     </div>
+
+    {% if total_news > news_preview_limit %}
+    <h6 class="d-block p-3 mt-0 mb-0 text-right font-weight-normal border-top border-gray">
+        <a href="javascript:void(0)" id="news-toggle-btn" onclick="toggleAllNews()">All News <i class="fas fa-angle-double-right"></i></a>
+    </h6>
+    {% endif %}
 </div>
+
+{% if total_news > news_preview_limit %}
+<script>
+(function() {
+    var limit = {{ news_preview_limit }};
+    var items = document.querySelectorAll('#news-container .news-item');
+    items.forEach(function(item) {
+        if (parseInt(item.getAttribute('data-news-index')) >= limit) {
+            item.classList.add('news-extra');
+        }
+    });
+    document.querySelectorAll('#news-container .news-extra').forEach(function(el) {
+        el.style.display = 'none';
+    });
+    document.querySelectorAll('#news-container [data-news-year]').forEach(function(yearGroup) {
+        var newsItems = yearGroup.querySelectorAll('.news-item');
+        var allExtra = newsItems.length > 0 && Array.from(newsItems).every(function(item) {
+            return item.classList.contains('news-extra');
+        });
+        if (allExtra) {
+            yearGroup.classList.add('news-year-extra');
+            yearGroup.style.display = 'none';
+        }
+    });
+    window.toggleAllNews = function() {
+        var btn = document.getElementById('news-toggle-btn');
+        var expanded = btn.getAttribute('data-expanded') === 'true';
+        document.querySelectorAll('#news-container .news-extra, #news-container .news-year-extra').forEach(function(el) {
+            el.style.display = expanded ? 'none' : '';
+        });
+        btn.innerHTML = expanded
+            ? 'All News <i class="fas fa-angle-double-right"></i>'
+            : 'Show Less <i class="fas fa-angle-double-up"></i>';
+        btn.setAttribute('data-expanded', String(!expanded));
+    };
+})();
+</script>
+{% endif %}
