@@ -137,7 +137,8 @@ body_attr: >-
         <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
           {% for item in year.items %}
-            <div class="filter-item {% if item.type %}{{ item.type }}{% endif %} {% for tag in item.tags %}{{ tag | slugify }} {% endfor %}">
+            {% assign _item_tags = item.tags | join: "|" | remove: "# " | downcase %}
+            <div class="filter-item {% if item.type %}{{ item.type }}{% endif %}" data-tags="{{ _item_tags }}">
               {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
             </div>
           {% endfor %}
@@ -151,10 +152,6 @@ body_attr: >-
 <script>
   let currentType = 'all';
   let activeTag = null;
-
-  function slugify(str) {
-    return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-  }
 
   function selectType(el, type) {
     document.querySelectorAll('.filter-tab').forEach(tab => tab.classList.remove('active'));
@@ -181,7 +178,11 @@ body_attr: >-
 
     for (let i = 0; i < items.length; i++) {
       const typeMatch = (currentType === "all" || items[i].classList.contains(currentType));
-      const tagPass = (activeTag === null || items[i].classList.contains(slugify(activeTag)));
+      let tagPass = true;
+      if (activeTag !== null) {
+        const itemTags = (items[i].dataset.tags || '').split('|').map(t => t.trim());
+        tagPass = itemTags.includes(activeTag.toLowerCase());
+      }
       items[i].style.display = (typeMatch && tagPass) ? "block" : "none";
     }
 
