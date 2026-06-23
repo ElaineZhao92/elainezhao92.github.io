@@ -9,7 +9,7 @@ services:
     year: 2026
 
   - conference: "AAAI"
-    year: 2026
+    year: [2026, 2027]
   
   - conference: "KDD"
     years: [2025, 2026]

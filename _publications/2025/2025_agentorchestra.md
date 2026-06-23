@@ -2,7 +2,7 @@
 title:          "Agentorchestra: A Hierarchical Multi-agent Framework for General-purpose Task Solving"
 date:           2025-06-10
 selected:       false
-tags:           ["# LLM Agents", "# deep research", "# hierarchical multi-agent systems"]
+tags:           ["# LLM Agents", "# deep research"]
 pub:            "arXiv preprint, 2025"
 # pub_pre:        "Submitted to "
 #pub_post:       'Under review.'
