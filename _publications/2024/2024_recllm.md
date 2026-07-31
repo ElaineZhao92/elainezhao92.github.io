@@ -5,6 +5,7 @@ selected:       true
 type:           publication
 tags:           ["# recommender system", "# LLM fine-tuning", "# explainability"]
 pub:            "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024"
+presentation:     "Poster"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 #pub_date:       "2024"

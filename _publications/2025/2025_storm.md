@@ -5,6 +5,7 @@ selected:       true
 type:           publication
 tags:           ["# AI4Finance", "# spatio-temporal learning", "# factor models", "# portfolio management", "# quantitative trading"]
 pub:            "Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining (WSDM), 2026"
+presentation:     "Oral"  # or "Poster" -- uncomment and set to show a badge
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 #pub_date:       "2026"

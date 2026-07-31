@@ -4,8 +4,9 @@ date:           2026-02-25
 selected:       false
 tags:           ["# AI4Finance", '# factor models', "# benchmark and datasets"]
 pub:            "Proceedings of SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026"
+presentation:     "Poster"
 # pub_pre:        "Submitted to "
-#pub_post:       'Under review.'
+# pub_post:       'Under review.'
 # pub_date:       "2026"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-

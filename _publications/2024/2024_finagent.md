@@ -5,6 +5,7 @@ selected:       false
 type:           publication
 tags:           ["# AI4Finance", "# LLM Agents", "# quantitative trading"]
 pub:            "Proceedings of the 30th ACM SIGKDD conference on Knowledge Discovery and Data Dining (KDD), 2024"
+presentation:     "Oral"  # or "Poster" -- uncomment and set to show a badge
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 #pub_date:       "2024"

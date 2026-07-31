@@ -5,6 +5,8 @@ selected:       true
 type:           publication
 tags:           ["# AI4Finance", "# portfolio management", "# reinforcement learning"]
 pub:            "Proceedings of the ACM Web Conference (WWW), 2024"
+presentation:     "Poster"
+
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 #pub_date:       "2024"

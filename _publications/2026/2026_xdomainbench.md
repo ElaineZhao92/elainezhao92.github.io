@@ -5,6 +5,7 @@ date:           2026-05-01
 selected:       false
 tags:           ["# benchmark and datasets"]
 pub:            "Proceedings of 43rd International Conference on Machine Learning (ICML), 2026"
+presentation:     "Poster"
 # pub_pre:        "Submitted to "
 #pub_post:       'Under review.'
 #pub_date:       "2026"

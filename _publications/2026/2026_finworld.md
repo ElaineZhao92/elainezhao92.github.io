@@ -4,6 +4,7 @@ date:           2025-11-24
 selected:       true
 tags:           ["# AI4Finance", "# portfolio management", "# quantitative trading"]
 pub:            "Proceedings of SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026"
+presentation:     "Oral"  # or "Poster" -- uncomment and set to show a badge
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_date:       "2026"
