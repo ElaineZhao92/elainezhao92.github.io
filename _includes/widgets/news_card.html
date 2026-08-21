@@ -41,7 +41,7 @@
         }
     });
     document.querySelectorAll('#news-container .news-extra').forEach(function(el) {
-        el.style.display = 'none';
+        el.style.setProperty('display', 'none', 'important');
     });
     document.querySelectorAll('#news-container [data-news-year]').forEach(function(yearGroup) {
         var newsItems = yearGroup.querySelectorAll('.news-item');
@@ -50,14 +50,18 @@
         });
         if (allExtra) {
             yearGroup.classList.add('news-year-extra');
-            yearGroup.style.display = 'none';
+            yearGroup.style.setProperty('display', 'none', 'important');
         }
     });
     window.toggleAllNews = function() {
         var btn = document.getElementById('news-toggle-btn');
         var expanded = btn.getAttribute('data-expanded') === 'true';
         document.querySelectorAll('#news-container .news-extra, #news-container .news-year-extra').forEach(function(el) {
-            el.style.display = expanded ? 'none' : '';
+            if (expanded) {
+                el.style.setProperty('display', 'none', 'important');
+            } else {
+                el.style.removeProperty('display');
+            }
         });
         btn.innerHTML = expanded
             ? 'All News <i class="fas fa-angle-double-right"></i>'
