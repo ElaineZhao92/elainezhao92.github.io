@@ -6,7 +6,7 @@ services:
     year: 2026
 
   - conference: "ICLR"
-    year: 2026
+    years: [2026, 2027]
 
   - conference: "AAAI"
     years: [2026, 2027]
