@@ -1,6 +1,6 @@
 ---
 title:          "Agentorchestra: Orchestrating Multi-Agent Intelligence with the Tool-Environment-Agent(TEA) Protocol"
-date:           2026-09-30
+date:           2025-07-14
 selected:       false
 tags:           ["# LLM Agents", "# deep research"]
 pub:            "The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS) AgenticOS Workshop, 2026"
