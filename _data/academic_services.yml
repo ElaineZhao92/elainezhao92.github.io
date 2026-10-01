@@ -13,6 +13,9 @@ services:
   
   - conference: "KDD"
     years: [2025, 2026]
+  
+  - conference: "WWW"
+    year: 2027
 
   - conference: "WISE"
     years: [2024, 2025, 2026]
